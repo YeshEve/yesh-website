@@ -1,3 +1,5 @@
-$(document).ready(function() {
-  $('.drag-man-title').draggable();
+$(function() {
+  $('.ion-man').draggable({
+    containment: ".drag-man"
+  });
 });
